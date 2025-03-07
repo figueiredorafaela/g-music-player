@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #002231;
+  --secondary-color: #ffffff;
 }
 ::-webkit-scrollbar {
   width: 3px;
@@ -40,7 +41,7 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #505fa3;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -58,11 +59,11 @@ i#current-favourite:hover {
 }
 
 i:hover {
-  color: #106f9b;
+  color: var(--secondary-color);
 }
 
 i.active {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .top {
@@ -276,7 +277,7 @@ i.active {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   position: absolute;
   top: -4px;
   left: 0;
